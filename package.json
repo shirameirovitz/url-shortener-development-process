@@ -1,0 +1,41 @@
+{
+  "name": "shorturl",
+  "version": "0.0.3",
+  "description": "API project for freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.20",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest-puppeteer": "^4.4.0",
+    "pug": "^3.0.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.4",
+    "supertest": "^6.1.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirameirovitz/url-shortener.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/shirameirovitz/url-shortener/issues"
+  },
+  "homepage": "https://github.com/shirameirovitz/url-shortener#readme"
+}

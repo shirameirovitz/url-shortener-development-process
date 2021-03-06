@@ -1,0 +1,85 @@
+body {
+  font-family: Lato, Arial;
+  font-size: 20px;
+  color: rgb(245, 234, 234);
+  background: url("black-wood.jpg");
+  text-align: center;
+  line-height: 1.8em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5%;
+  display: grid;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+main {
+  padding: 0;
+  margin-top: 40px;
+}
+
+legend {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.user-stories li {
+  margin-bottom: 2em;
+}
+
+a {
+  color: #ad6b6b;
+}
+fieldset {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 10px;
+}
+label {
+  margin-right: 30px;
+}
+
+input {
+  font-size: 30px;
+}
+
+input[type="text"] {
+  padding-right: 60px;
+  margin-right: 5px;
+  border: none;
+  background-color: rgb(37, 24, 24);
+  color: rgb(212, 175, 172);
+}
+input[type="submit"] {
+  background-color: rgb(82, 66, 66);
+  border: none;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+}
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  color: rgb(66, 9, 9);
+  font-size: 24px;
+}
+h2 {
+  color: rgb(112, 57, 57);
+  font-size: 36px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 25px;
+}
+th {
+  background-color: rgb(194, 164, 164);
+}
+th,
+td {
+  padding: 15px;
+}
